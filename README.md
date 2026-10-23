@@ -1,9 +1,5 @@
 # Doodle Chef Playbook
 
-https://doodle-chef-kit.base44.app
-replicate the same website cuz i need to export files without upgrade
-
-This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
