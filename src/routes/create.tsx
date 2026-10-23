@@ -31,7 +31,7 @@ function Create() {
       cuisine: f.cuisine || "Homemade", course: f.course || "Anytime", custom: true,
       ingredients: f.ingredients.split("\n").filter(Boolean).map((l) => {
         const [name, ...qty] = l.split(",");
-        return { name: name.trim(), qty: qty.join(",").trim() };
+        return { name: (name ?? "").trim(), qty: qty.join(",").trim() };
       }),
       steps: f.steps.split("\n").map((x) => x.trim()).filter(Boolean),
     });
