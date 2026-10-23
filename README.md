@@ -46,7 +46,7 @@ Salt, pepper, oil, butter, soy sauce, garlic and even water **only count if you 
 - [Tailwind CSS](https://tailwindcss.com) v4 — styling, configured through `src/styles.css` theme tokens
 - [Radix UI](https://www.radix-ui.com) + shadcn/ui conventions — accessible primitives
 - [lucide-react](https://lucide.dev) — icons
-- [Vite](https://vite.dev) 7 — build tool and dev server
+- [Vite](https://vite.dev) 8 — build tool and dev server
 - [Vitest](https://vitest.dev) + React Testing Library — tests
 - TypeScript — strict mode
 
